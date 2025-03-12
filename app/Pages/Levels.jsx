@@ -12,7 +12,7 @@ export default function Levels() {
     // Fonction pour récupérer les niveaux depuis l'API
     const fetchLevels = async () => {
       try {
-        const response = await fetch('http://192.168.56.1:4000/api/levels');
+        const response = await fetch('http://localhost:4000/api/levels');
         const data = await response.json();
         setLevels(data); // Mettre à jour les niveaux
       } catch (error) {

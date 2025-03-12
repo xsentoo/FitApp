@@ -12,7 +12,7 @@ export default function Goals() {
   useEffect(() => {
     const fetchGoals = async () => {
       try {
-        const response = await fetch('http://192.168.56.1:4000/api/goals');
+        const response = await fetch('http://localhost:4000/api/goals');
         const data = await response.json();
         setGoals(data);
       } catch (error) {
