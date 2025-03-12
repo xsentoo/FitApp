@@ -22,6 +22,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     paddingVertical: 15,
     backgroundColor: '#4caf50',
+    borderRadius: 20, // Arrondi sur tous les côtés
+    marginHorizontal: 10, // Ajoute un peu de marge pour éviter que la navbar touche les bords de l'écran
+    marginBottom: 10, // Ajoute un peu d'espace sous la navbar
+    paddingHorizontal: 15, // Ajoute du padding pour un meilleur rendu
   },
   navItem: {
     color: '#fff',
@@ -29,3 +33,5 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+
